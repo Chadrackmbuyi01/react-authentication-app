@@ -97,6 +97,7 @@ app.delete("/deleteuser/:id", (req, res) => {
       res.status(500).send("Error deleting user");
     });
 });
+// This is the main entry point for the server application.
 app.get("/", (req, res) => {
   res.send("Welcome to the React Login Server!");
 });
